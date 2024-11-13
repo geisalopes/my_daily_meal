@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Daily Meal</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Merriweather", serif;
+      margin: 0;
+      text-align: center;
+    }
+    button {
+      background-color: #44c4b1;
+      border: none;
+      border-radius: 100px;
+      box-shadow: 3px 3px 9px rgba(104, 77, 50, 0.236);
+      color: white;
+      display: block;
+      font-size: 20px;
+      margin: 50px auto;
+      padding: 10px 15px;
+      transition: all 200ms ease-in-out;
+    }
+    button:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    hr {
+      border: dotted #44c4b1 8px;
+      border-bottom: none;
+      margin: 100px auto;
+      width: 6%;
+    }
+    h1 {
+      color: #e84a5f;
+      font-family: "Courgette", cursive;
+      font-size: 55px;
+      margin: 30px;
+    }
+    h2 {
+      color: #ff847c;
+      font-family: "Poppins", serif;
+      font-size: 35px;
+      font-weight: normal;
+      padding-bottom: 10px;
+    }
+    h3 {
+      color: rgb(79, 79, 79);
+      font-family: "Poppins", serif;
+      font-weight: normal;
+      font-size: 15px;
+      margin: 10px 0 40px;
+    }
+    li {
+      display: inline;
+      margin: 0 15px;
+    }
+    p {
+      color: rgb(79, 79, 79);
+      font-family: "Merriweather", serif;
+      font-size: 16px;
+      line-height: 32px;
+      margin: auto;
+      padding: 10px;
+      width: 70%;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    .about-me {
+      color: #fa7070;
+      text-decoration: none;
+    }
+    .bottom-container {
+      background-color: #fcf8e8;
+      padding: 1px 0;
+      position: relative;
+    }
+    .bookButton {
+      font-family: "Poppins", serif;
+      font-size: 20px;
+      padding: 20px;
+    }
+    .continue-reading {
+      color: #fa7070;
+      font-family: "Poppins", serif;
+      font-size: 15px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .free-book {
+      color: #fa7070;
+    }
+    .icon {
+      color: #ff847c;
+      display: inline-block;
+      font-size: 10px;
+      font-family: "Merriweather", serif;
+      margin: 0 auto;
+      max-width: 100%;
+      text-decoration: none;
+      width: 140px;
+    }
+    .icons {
+      color: rgb(79, 79, 79);
+      font-size: 10px;
+    }
+    .info {
+      background-color: #f3f9e4;
+      padding: 30px 0;
+      position: relative;
+    }
+    .intro-picture {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      width: 100px;
+    }
+    .meals {
+      border-radius: 10px;
+      color: #ff847c;
+      display: inline-block;
+      font-family: "Poppins", serif;
+      margin: 0 auto;
+      max-width: 100%;
+      text-decoration: none;
+      width: 140px;
+    }
+    .middle-bottom-container {
+      background-color: #fcf8e8;
+      padding: 1px 0;
+      position: relative;
+    }
+    .middle-top-container {
+      background-color: #fcf8e8;
+      padding: 1px 0;
+      position: relative;
+    }
+    .top-container {
+      background: linear-gradient(
+        to right,
+        rgb(198, 255, 221),
+        rgb(251, 215, 134),
+        rgb(247, 121, 125)
+      );
+      padding: 100px 0;
+      position: relative;
+    }
+    .veggies {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      width: 120px;
+    }
+  </style>
+  <body>
+    <div class="top-container">
+      <h1>What am I going to eat today?</h1>
+    </div>
+    <div class="middle-top-container">
+      <img
+        class="intro-picture"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/250/original/folha.png?1688488471"
+        alt="leaf"
+      />
+      <h2>Hello there.</h2>
+      <p class="intro">
+        Are you on a quest to decide what to eat today? Don't worry, we're here
+        to help. With a wide selection of delicious
+        <em>plant-based</em> recipes, you only have one thing to worry about:
+        selecting your meal. The rest is up to us.
+      </p>
+      <hr />
+      <div class="your-meals">
+        <h2>Choose Your Favorite Meal:</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=9WcVCQrq8bE&list=PL41AUpQ9iDNuF6hATz_0qcRBG0YTp-X3Y"
+              class="meals"
+              target="_blank"
+              ><img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/251/original/breakfast.png?1688488478"
+                alt="cafedamanha"
+                class="meals"
+              />Breakfast</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=3pmRN8o81qA&list=PLZ34BtqrTir8boz75SbFvzeaF-NudVqOv"
+              class="meals"
+              target="_blank"
+            >
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/253/original/lunch.png?1688488508"
+                alt="almoco"
+                class="meals"
+              />Lunch</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=s3EGodQAvSA&list=PLr1A8WQbpv2CjO3corMEXFwgQuvoq3gYJ"
+              target="_blank"
+              class="meals"
+              ><img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/252/original/soup.png?1688488485"
+                alt="sopa"
+                class="meals"
+              />Dinner</a
+            >
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </div>
+
+    <div class="middle-bottom-container">
+      <h2>What Veganism Means?</h2>
+      <img
+        class="veggies"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/340/original/vegetable.png?1688544083"
+        alt="vegetables"
+      />
+      <p class="vegan-meaning">
+        Veganism is the practice of abstaining from the use of animal
+        product—particularly in diet—and an associated philosophy that rejects
+        the commodity status of animals.An individual who follows the diet or
+        philosophy is known as a vegan. Distinctions may be made between several
+        categories of veganism. Dietary vegans, also known as "strict
+        vegetarians", refrain from consuming meat, eggs, dairy products, and any
+        other animal-derived substances. An ethical vegan is someone who not
+        only excludes animal products from their diet but also tries to avoid
+        using animals, animal products, and animal-tested products wherever
+        practical. Another term is "environmental veganism", which refers to the
+        avoidance of animal products on the premise that the industrial farming
+        of animals is environmentally damaging and unsustainable. Further
+        motivations for vegan diets include concerns about animal welfare.
+        <br />
+        <a
+          href="https://en.wikipedia.org/wiki/Veganism"
+          target="_blank"
+          class="continue-reading"
+        >
+          Continue reading
+        </a>
+      </p>
+      <hr />
+    </div>
+    <div class="bottom-container">
+      <div class="get-book">
+        <h2>How About a Book?</h2>
+        <p>
+          Would you like to receive a
+          <span class="free-book">book</span>
+          with 15-minute recipes, entirely
+          <span class="free-book">free</span> of charge?
+        </p>
+      </div>
+      <button class="bookButton">Yes, I want my book! 📚</button>
+      <script>
+        function buyBook() {
+          let name = prompt("What is your name?");
+          let email = prompt("What is your e-mail adress?");
+          let cook = prompt("Do you know how to cook?");
+          if (cook.toLowerCase() === "yes") {
+            alert(
+              "Yay! The book was sent to your e-mail, " +
+                name +
+                "!  If you already know how to cook, you are going to love this book."
+            );
+          } else {
+            alert(
+              "Yahoo! We just sent your book, " +
+                name +
+                ". And dont't worry, our recipes are super easy and great for beginners."
+            );
+          }
+        }
+        let bookButton = document.querySelector(".bookButton");
+        bookButton.addEventListener("click", buyBook);
+      </script>
+    </div>
+    <div class="info">
+      <h3>
+        Designed by
+        <a
+          href="https://www.linkedin.com/in/geisa-lopes/"
+          class="about-me"
+          target="_blank"
+          ><strong>Geisa Lopes</strong></a
+        >
+      </h3>
+      <div class="icons">
+        Icons made by
+        <a
+          class="icon"
+          href="https://www.flaticon.com/authors/freepik"
+          title="Freepik"
+          target="_blank"
+          >Freepik</a
+        >
+        from
+        <a
+          class="icon"
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+          target="_blank"
+          >www.flaticon.com</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
