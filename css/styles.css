@@ -1,0 +1,147 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+button {
+  background-color: #44c4b1;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 3px 3px 9px rgba(104, 77, 50, 0.236);
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin: 50px auto;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+hr {
+  border: dotted #44c4b1 8px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 6%;
+}
+h1 {
+  color: #e84a5f;
+  font-family: "Courgette", cursive;
+  font-size: 55px;
+  margin: 30px;
+}
+h2 {
+  color: #ff847c;
+  font-family: "Poppins", serif;
+  font-size: 38px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Poppins", serif;
+  font-size: 15px;
+  margin: 10px 0 40px;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+}
+p {
+  color: rgb(79, 79, 79);
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 32px;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.about-me {
+  color: #fa7070;
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #fcf8e8;
+  padding: 1px 0;
+  position: relative;
+}
+.bookButton {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  padding: 20px;
+}
+.continue-reading {
+  color: #fa7070;
+  font-family: "Poppins", serif;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.free-book {
+  color: #fa7070;
+}
+.icon {
+  color: #ff847c;
+  display: inline-block;
+  font-size: 10px;
+  font-family: "Merriweather", serif;
+  margin: 0 auto;
+  max-width: 100%;
+  text-decoration: none;
+  width: 140px;
+}
+.icons {
+  font-size: 10px;
+}
+.info {
+  background-color: #f3f9e4;
+  padding: 30px 0;
+  position: relative;
+}
+.intro-picture {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 100px;
+}
+.meals {
+  border-radius: 10px;
+  color: #ff847c;
+  display: inline-block;
+  font-family: "Poppins", serif;
+  margin: 0 auto;
+  max-width: 100%;
+  text-decoration: none;
+  width: 140px;
+}
+.middle-bottom-container {
+  background-color: #fcf8e8;
+  padding: 1px 0;
+  position: relative;
+}
+.middle-top-container {
+  background-color: #fcf8e8;
+  padding: 1px 0;
+  position: relative;
+}
+.top-container {
+  background: linear-gradient(
+    to right,
+    rgb(198, 255, 221),
+    rgb(251, 215, 134),
+    rgb(247, 121, 125)
+  );
+  padding: 100px 0;
+  position: relative;
+}
+.veggies {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 120px;
+}
